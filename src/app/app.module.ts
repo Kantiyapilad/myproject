@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {ImageModule} from 'primeng/image';
 import {ToolbarModule} from 'primeng/toolbar';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import {ToolbarModule} from 'primeng/toolbar';
     BrowserModule,
     BrowserAnimationsModule,
     ToolbarModule,
-    ImageModule
+    ImageModule,
+    FontAwesomeModule
 
   ],
   providers: [],
