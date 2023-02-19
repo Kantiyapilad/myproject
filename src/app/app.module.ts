@@ -7,10 +7,8 @@ import { PopupComponent } from './popup/popup.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
-import {MenubarModule} from 'primeng/menubar';
-
-
+import {ImageModule} from 'primeng/image';
+import {ToolbarModule} from 'primeng/toolbar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +20,8 @@ import {MenubarModule} from 'primeng/menubar';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MenubarModule,
+    ToolbarModule,
+    ImageModule
 
   ],
   providers: [],
