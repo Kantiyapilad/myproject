@@ -22,6 +22,7 @@ import {MenubarModule} from 'primeng/menubar';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+
     ImageModule,
     FontAwesomeModule,
     MenubarModule
