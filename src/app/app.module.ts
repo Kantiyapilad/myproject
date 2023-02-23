@@ -11,20 +11,25 @@ import {ImageModule} from 'primeng/image';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MenubarModule} from 'primeng/menubar';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { MenutoolbarComponent } from './menutoolbar/menutoolbar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     PopupComponent,
     MainPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MenutoolbarComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     ImageModule,
     FontAwesomeModule,
-    MenubarModule
+    MenubarModule,
+    MatToolbarModule
 
   ],
   providers: [],

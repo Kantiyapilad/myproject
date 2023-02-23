@@ -1,0 +1,34 @@
+.backgroundMenu{
+    width: 100%; 
+    height: 80px; 
+    flex-direction: row; 
+    justify-content: space-between;
+     background-color: #16794A ; 
+     color: ghostwhite;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: ghostwhite;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: ghostwhite;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
