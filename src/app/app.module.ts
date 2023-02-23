@@ -8,8 +8,9 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {ImageModule} from 'primeng/image';
-import {ToolbarModule} from 'primeng/toolbar';
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MenubarModule} from 'primeng/menubar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,9 +22,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    ToolbarModule,
     ImageModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MenubarModule
 
   ],
   providers: [],
