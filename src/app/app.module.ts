@@ -14,6 +14,7 @@ import {MenubarModule} from 'primeng/menubar';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MenutoolbarComponent } from './menutoolbar/menutoolbar.component';
 import { HistoryComponent } from './history/history.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HistoryComponent } from './history/history.component';
     HeaderComponent,
     FooterComponent,
     MenutoolbarComponent,
-    HistoryComponent
+    HistoryComponent,
+    SitemapComponent
   ],
   imports: [
     BrowserModule,
