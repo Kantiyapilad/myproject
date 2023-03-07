@@ -15,6 +15,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { MenutoolbarComponent } from './menutoolbar/menutoolbar.component';
 import { HistoryComponent } from './history/history.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
+import { Routes,RouterModule } from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
+
+const appRoutes: Routes = [
+  {path:'',component:AppComponent},
+  {path:'history',component:HistoryComponent},
+  {path:'sitemap',component:SitemapComponent},
+  {path:'contact',component:ContactComponent},
+];
 
 @NgModule({
   declarations: [
@@ -25,7 +34,8 @@ import { SitemapComponent } from './sitemap/sitemap.component';
     FooterComponent,
     MenutoolbarComponent,
     HistoryComponent,
-    SitemapComponent
+    SitemapComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +44,8 @@ import { SitemapComponent } from './sitemap/sitemap.component';
     ImageModule,
     FontAwesomeModule,
     MenubarModule,
-    MatToolbarModule
+    MatToolbarModule,
+    RouterModule.forRoot(appRoutes)
 
   ],
   providers: [],
