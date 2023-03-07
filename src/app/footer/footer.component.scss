@@ -4,4 +4,16 @@
   display: flex;
 }
 
+.footerline{
+  display: flex;
+  justify-content: center;
+
+}
+.footerMenu{
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
 
